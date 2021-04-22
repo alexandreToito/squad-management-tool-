@@ -1,0 +1,71 @@
+.players-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 20px;
+}
+
+.top-5-div {
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+}
+
+.middle-field {
+  background: white;
+  height: 20px;
+  width: 20px;
+}
+
+.high-low {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px;
+  grid-column-gap: 30px;
+  align-content: center;
+}
+
+.high-low p {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.highest-cards {
+  height: 93%;
+  background: #f7f3f7;
+  border-radius: 10px;
+}
+
+.lowest-cards {
+  height: 93%;
+  background: #f7f3f7;
+  border-radius: 10px;
+}
+
+.highest-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 45px);
+}
+
+.team {
+  background: white;
+  border-radius: 10px;
+  margin: 5px 7px 0 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team p {
+  font-weight: normal;
+  padding: 0 10px 0 10px;
+}
+
+.team:hover {
+  border: 2px solid #b23b7b;
+}
+
+.team .team-points {
+  font-weight: bold;
+}

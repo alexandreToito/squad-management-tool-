@@ -1,0 +1,224 @@
+.create-container {
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70vh 70vh;
+  margin: 50px 50px;
+  border-radius: 10px;
+}
+
+.team-information h2 {
+  color: #552c8a;
+  margin: 35px 20px;
+}
+
+.team-information p {
+  text-align: center;
+  font-weight: bold;
+  color: #7e7e7e;
+  margin-bottom: 50px;
+}
+
+.information-inputs-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 400px 100px 400px;
+}
+
+.information-inputs-1 form:focus-within input {
+  outline: none;
+  border: 2px solid #bf0e4e;
+}
+
+.information-inputs-1 form:focus-within label {
+  color: #bf0e4e;
+}
+
+.team-name {
+  margin-top: 10px;
+  width: 411px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.team-website {
+  margin-top: 10px;
+  width: 411px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.information-inputs-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 400px;
+}
+
+.information-inputs-2 form:focus-within textarea {
+  outline: none;
+  border: 2px solid #bf0e4e;
+}
+
+.information-inputs-2 form:focus-within label {
+  color: #bf0e4e;
+}
+
+.team-description {
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  resize: none;
+}
+
+.tags {
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  resize: none;
+}
+
+.team-information .tags-p {
+  margin-bottom: 0;
+  text-align: unset;
+  color: initial;
+  font-weight: normal;
+}
+
+.team-type .team-type-label {
+  margin-bottom: 5px !important;
+}
+
+.information-inputs-2 .team-type form:focus-within textarea {
+  outline: none;
+  border: 2px solid #bf0e4e;
+}
+
+.configure-squad p {
+  text-align: center;
+  font-weight: bold;
+  color: #7e7e7e;
+  margin-bottom: 30px;
+}
+
+.formation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 400px;
+}
+
+.formation-select {
+  display: block;
+}
+
+.formation .formation-select select {
+  margin-left: 30px;
+  height: 30px;
+}
+
+.formation-field {
+  background-image: linear-gradient(#a9397c, #7a2d80);
+  height: 450px;
+  width: 84%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.formation-field-save {
+  width: 84%;
+  height: 40px;
+  margin-top: 20px;
+  border: 0.4px solid;
+  border-radius: 5px;
+  background: #862f7f;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.formation-search {
+  margin-left: 100px;
+}
+
+.formation-search-input {
+  margin-top: 10px;
+  width: 411px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.formation-search-players {
+  background: #f4f4f4;
+  margin-top: 10px;
+  width: 416px;
+  height: 60px;
+  border: 1px dashed;
+  border-radius: 5px;
+}
+
+.formation-search-players p {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: unset;
+  color: initial;
+  font-weight: normal;
+}
+
+.formation-search-players-name-age {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 10px;
+}
+
+.formation-search-players-name {
+  display: flex;
+}
+
+.formation-search-players-age {
+  display: flex;
+}
+
+.formation-search-players-nationality {
+  display: flex;
+  margin: 0 10px;
+}
+
+.p-name {
+  margin-left: 5px;
+}
+
+.p-age {
+  margin-left: 5px;
+}
+
+.p-nationality {
+  margin-left: 5px;
+}
+
+.formation-search-players-name .p-name {
+  color: #bf0e4e;
+}
+
+.formation-search-players-age .p-age {
+  color: #bf0e4e;
+}
+
+.formation-search-players-nationality .p-nationality {
+  color: #bf0e4e;
+}
+
+.information-inputs-2 .team-type form:focus-within textarea {
+  outline: none;
+  border: 2px solid #bf0e4e;
+}
+
+.formation-search form:focus-within input {
+  outline: none;
+  border: 2px solid #bf0e4e;
+}
+
+.formation-search form:focus-within label {
+  color: #bf0e4e;
+}

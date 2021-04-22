@@ -1,0 +1,65 @@
+.picked-players {
+  background-image: linear-gradient(#b73c7b, #672f88);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field-line {
+  width: 46%;
+  height: 1px;
+  background-color: rgb(224, 224, 224, 0.5);
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.field-circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border: solid 1px rgb(224, 224, 224, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: -41px;
+  left: calc(50% - 50px);
+}
+
+.most-picked-border {
+  display: inline-block;
+  vertical-align: middle;
+  width: 180px;
+  height: 180px;
+  border: dashed 3px rgb(224, 224, 224, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 184px;
+  left: calc(50% - 106px);
+}
+
+.most-picked {
+  background: white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border: solid 1px rgb(224, 224, 224, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 90px);
+}
+
+.less-picked {
+  background: white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border: solid 2px red;
+  border-radius: 50%;
+  position: absolute;
+  top: -340px;
+  left: calc(50% - 90px);
+}

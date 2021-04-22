@@ -1,0 +1,95 @@
+.table table {
+  text-align-last: left;
+  width: 100%;
+}
+
+.my-teams-div {
+  height: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+}
+
+.table tr:hover {
+  background: #f7eef7;
+  color: #c2699a;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description .icons i {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cardHeader h2 {
+  color: #552c8a;
+}
+
+#root
+  > div
+  > div
+  > div.ant-table-wrapper.table
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table
+  > thead
+  > tr {
+  height: 50px;
+}
+
+#root
+  > div
+  > div
+  > div.ant-table-wrapper.table
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table
+  > thead
+  > tr:hover {
+  background: white;
+  color: black;
+}
+
+.divider {
+  color: black;
+}
+
+.solid {
+  border-top: 1px solid rgb(224, 224, 224);
+}
+
+.addTeams {
+  height: 35px;
+  width: 35px;
+  border: 0.5px;
+  border-radius: 8px;
+  background-image: linear-gradient(#c00e4e, #8a206f);
+  color: white;
+  cursor: pointer;
+}
+
+.ant-empty-description {
+  display: none;
+}
+
+.ant-empty.ant-empty-normal {
+  display: none;
+}
